@@ -1,0 +1,20 @@
+echo $index;
+echo '<div id="exo1">' . '<p><strong>' . htmlspecialchars($donnees['titreEx']) . '</strong> :' . '</p>' .
+    '<p>' . htmlspecialchars($donnees['titreScroll']) . '<label for="reponse1"></label>
+        <select name="reponse1" id="reponse1">
+            <option value="idea" selected>' . htmlspecialchars($donnees['choix']) . '</option>
+            <option value="idea2">' . htmlspecialchars($donnees['choix']) . '</option>
+            <option value="idea3">' . htmlspecialchars($donnees['choix']) . '</option>
+        </select>
+    </p>' .
+    '</div>';
+
+
+    $res = rechercheOptions($idScrollBarr,$bdd);
+
+    for ($i =0 ; $i<count($res['choix']);$i++)
+    {
+    echo "<li>". $res['choix'][$i] . "</li>";
+    }
+
+    echo($res);

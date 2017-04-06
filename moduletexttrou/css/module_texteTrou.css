@@ -1,0 +1,128 @@
+
+@font-face {
+
+    font-family: "Arial Rounded MT Bold";
+    src: url('font/ArialRoundedMTBold.ttf') format("embedded-opentype"),
+    url('font/ArialRoundedMTBold.ttf') format("woff2"),
+    url('font/ArialRoundedMTBold.ttf') format("woff"),
+    url('font/ArialRoundedMTBold.ttf') format("truetype"),
+    url('font/ArialRoundedMTBold.ttf') format("svg");
+
+}
+
+#title {
+
+    border-radius: 5px;
+    border: solid #e3e3e3 1px;
+    font-family: "ArialRoundedMTbold";
+    margin-top: 0.5%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-left: 1.5%;
+    margin-right: 14.5%;
+    box-shadow: 1px 1px 12px #656565;
+    padding-left: 20%;
+
+}
+
+#progressBar {
+
+    align-self: flex-end;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+#exercices {
+
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+.buttonValidHint {
+
+    display: inline;
+    margin-left: 40%;
+    margin-bottom: 20%;
+    justify-content: center;
+
+}
+
+#exercices-reponses {
+    border-radius: 5px;
+    border: solid #e3e3e3 1px;
+    margin-left: 1.5%;
+    margin-right: 14.5%;
+    box-shadow: 1px 1px 12px #656565;
+    padding-bottom: 7%;
+
+}
+
+#retour {
+
+    text-align: right;
+    margin-right: 3%;
+
+}
+
+.navbar {
+
+    padding-left: 20%;
+    font-size: 17px;
+    list-style: none;
+
+}
+
+#reponses {
+
+    padding-left: 2.5%;
+
+}
+
+#buttonFavoris {
+
+    text-align: right;
+    margin-left: 60%;
+    font-size: 50px;
+
+}
+
+.navbar-right {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1.2;
+    padding-right: 5%;
+    padding-top: 3%;
+    font-size: 19px;
+
+}
+
+a, a:link, a:hover, a:focus, a:visited, a:active {
+
+    color: #d43f3a;
+
+}
+
+#progressBarDiv > i {
+
+    font-size: 30px;
+
+}
+
+#progressBarDiv {
+
+    align-items: center;
+
+}
+
+#indices, #indices1, #indices2 {
+    display: none;
+}

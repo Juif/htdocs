@@ -1,0 +1,52 @@
+header
+
+{
+border-style: outset;
+    height: 300px;
+    background: url("20140208_035331.jpg") repeat-x ;
+    background-size: 26%;
+    box-shadow: 10px 10px 20px magenta;
+
+
+
+
+}
+
+header h1
+
+{
+
+    
+
+   
+  text-shadow:2px 2px 4px black;
+    text-align: center;
+   padding-top: 60px;
+    color: magenta;
+    width: 100%;
+
+
+}
+
+#pass
+
+{
+    display : flex;
+}
+
+audio
+
+{width: 80px;
+
+
+}
+
+.txt
+
+{
+    text-shadow: 2px 2px 3px black;
+color:white;}
+
+header p 
+
+{width:17%;}
